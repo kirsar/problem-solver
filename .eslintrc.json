@@ -4,12 +4,13 @@
   "parserOptions": { "project": "./tsconfig.json" },
   "env": { "es6": true, "jest": true },
   "ignorePatterns": ["node_modules", "build", "coverage", "jest.config.ts"],
-  "plugins": ["import", "eslint-comments"],
+  "plugins": ["import", "eslint-comments", "functional"],
   "extends": [
     "eslint:recommended",
     "plugin:eslint-comments/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/typescript",
+    //"plugin:functional/lite",
     "prettier"
   ],
   "globals": { "BigInt": true, "console": true, "WebAssembly": true },

@@ -1,11 +1,11 @@
 {
-  "name": "test-problem-solver",
+  "name": "code-test",
   "version": "1.0.0",
   "description": "A library to solve all problems",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/YOUR_GITHUB_USER_NAME/spirii-problem-solver",
+  "repository": "https://github.com/YOUR_GITHUB_USER_NAME/code-test",
   "license": "MIT",
   "keywords": [],
   "scripts": {
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.2.1",
+    "@types/lodash": "^4.14.187",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
     "eslint": "^8.26.0",
@@ -37,5 +38,8 @@
     "CHANGELOG.md",
     "LICENSE",
     "README.md"
-  ]
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
